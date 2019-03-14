@@ -1,0 +1,159 @@
+@media only screen and (max-width: 768px) {
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-2 {
+        flex: 1;
+    }
+    body {
+        background-color: #f0ecee;
+    }
+    li {
+        display: block;
+        margin-left: -30px;
+    }
+    a {
+        padding: 10px;
+        color: #88898B;
+        text-decoration: none;
+    }
+    #adopt-me {
+        color: black;
+        font-size: 30pt;
+        font-weight: 600;
+    }
+    #contact-us {
+        border: 10px;
+        background-color: #ff4850;
+        color: white;
+    }
+    ul {
+        font-family: 'Fira Sans';
+        font-size: 14pt;
+    }
+    .red {
+        color: #ff4850;
+    }
+    button {
+        position: relative;
+        margin-top: 5%;
+        margin: 15px 0;
+        font-family: 'Fira Sans';
+        font-size: 14pt;
+        padding: 10px;
+        background-color: #ff4850;
+        color: white;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .friend {
+        position: relative;
+        margin-top: 8%;
+        margin-left: 20px;
+        line-height: 45px;
+        font-weight: 800;
+        font-family: 'Fira Sans';
+        text-emphasis: bold;
+        font-size: 24pt;
+    }
+    .p {
+        position: relative;
+        margin-top: 5%;
+        margin-left: 20px;
+        line-height: 18px;
+        font-family: 'Fira Sans';
+        font-size: 11pt;
+        color: #88898b;
+    }
+    a:hover {
+        color: #ccc;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box-1 {
+        display: inline-flex;
+        align-self: flex-start;
+    }
+    .box-2 {
+        display: inline-flex;
+        margin-left: auto;
+        align-self: flex-end;
+    }
+    ul {
+        font-family: 'Fira Sans';
+        font-size: 14pt;
+    }
+    .red {
+        color: #ff4850;
+    }
+    #adopt-me {
+        color: black;
+        font-size: 18pt;
+        font-weight: 600;
+        float: left;
+    }
+    a {
+        padding: 10px;
+        color: #88898B;
+        text-decoration: none;
+    }
+    #contact-us {
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 10px;
+        background-color: #ff4850;
+        color: white;
+        margin-right: 40px;
+    }
+    a:hover {
+        color: #ccc;
+    }
+    body {
+        background-image: url("./bulldog.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .friend {
+        position: relative;
+        margin-top: 10%;
+        margin-left: 40px;
+        margin-right: 60%;
+        line-height: 45px;
+        font-weight: 900;
+        font-family: 'Fira Sans';
+        text-emphasis: bold;
+        font-size: 24pt;
+    }
+    .p {
+        position: relative;
+        margin-top: 2%;
+        margin-left: 40px;
+        margin-right: 55%;
+        line-height: 30px;
+        font-family: 'Fira Sans';
+        font-weight: 300;
+        font-size: 16pt;
+        color: #88898b;
+    }
+    button {
+        position: relative;
+        margin-top: 2%;
+        margin-left: 40px;
+        font-family: 'Fira Sans';
+        font-size: 14pt;
+        padding: 10px;
+        background-color: #ff4850;
+        color: white;
+        border-radius: 5px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
